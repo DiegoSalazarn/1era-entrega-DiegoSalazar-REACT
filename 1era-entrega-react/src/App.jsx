@@ -1,13 +1,16 @@
-import './App.css'
+import Navbar from './components/navbar';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <Navbar />
+      <div className="app-content">
+        <h1>Bienvenido a OversizeLook</h1>
+        <p>Sitio Web inspirado a ser una marca de ropa 🚀</p>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
