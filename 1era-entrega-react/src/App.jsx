@@ -1,3 +1,4 @@
+import ItemListContainer from './components/navbar/ItemListContainer/ItemListContainer';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import Navbar from './components/navbar/navbar';
@@ -8,8 +9,7 @@ function App() {
     <>
       <Navbar />
       <div className="app-content">
-        <h1>Bienvenido a OversizeLook</h1>
-        <p>Sitio Web inspirado a ser una marca de ropa 🚀</p>
+      <ItemListContainer greeting="¡Bienvenido a nuestra tienda!" />
       </div>
     </>
   );
